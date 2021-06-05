@@ -67,24 +67,4 @@ public class Main {
             System.out.println (ex.getMessage ());
         }
     }
-
-//    public static String makeDir(String path, String name) {
-//        File dirSrc = new File(path + name);
-//        if (dirSrc.mkdir())
-//            return ("Папка: " + dirSrc + "была создана \n");
-//        else return ("Папка: " + dirSrc + "не создана \n");
-//    }
-//
-//    public static String createNewFile(String path, String name) {
-//        File textToTemptxt = new File (path, name);
-//        try {
-//            if (textToTemptxt.createNewFile ())
-//                return ("Файл: " + name + "был создан \n");
-//            else
-//                return ("Файл: " + name + "не создан \n");
-//        }
-//        catch (IOException ex) {
-//            return (ex.getMessage () + "\n");
-//        }
-//    }
 }
